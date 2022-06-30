@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.commentWrap .commentWrite textarea.comment_content,
+.commentListWrap textarea{
+	border:none;
+	resize:none;
+	outline:0;
+	font-size:1.1em;
+	color:#333;
+}
+
+.commentWrap, .commentListWrap{
+	width:100%;
+	border:1px solid #ddd;
+	padding:15px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.commentWrite{
+	border:1px solid #ccc;
+	overflow:hidden;
+}
+
+.commentWrite textarea{
+	float:left;
+	height:70px;
+	padding:5px;
+	width:85%;
+}
+
+.commentWrite input[type='button']{
+	float:right;
+	width:13%;
+	height:80px;
+	font-weight:bold;
+}
+
+.closeBtn{
+	float:right;
+	board:1px solid #ccc;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+
+.closeBtn:hover input{
+	cursor:pointer;
+}
+
+.pagingWrap{
+	width:100%;
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:50px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover{
+	color:#888;
+}

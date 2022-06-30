@@ -1,0 +1,401 @@
+@charset "UTF-8";
+
+
+/* common */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+section{
+	min-height: 100%;
+}
+
+table{
+	text-align: center;
+	margin: 0 auto;	
+}
+
+table tr td{
+	padding:5px;
+}
+
+table tr td:first-child {
+	text-align:left;
+}
+
+table tr td:last-child {
+	text-align:center;
+}
+
+
+/* join.jsp */
+table.join, table.info {
+	padding-top: 100px;
+}
+
+
+/* login.jsp */
+table.login {
+	padding-top: 150px;
+}
+
+/* detial.jsp */
+div.wrap {
+	min-height:100%;
+}
+table.detail{
+	text-align: left;
+	border: 1px solid red;
+	width: 100%;
+}
+
+table.detail tr td{
+	padding:15px;
+	border: 1px solid blue;
+}
+table.detail tr td:first-child {
+	text-align:center;
+}
+table.detail tr td:last-child {
+	text-align:center;
+}
+/* detail.mr 끝 */
+/* login.mr */
+div.loginWrap {
+	min-height: 100%;
+	padding-top: 23%;
+	margin-top: -7.5rem;
+	
+}
+
+div.loginLine{
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	border-radius: 0.5rem;
+	width: 20%;
+	margin:auto;
+	margin-bottom: 10px;
+	box-shadow: 1.5px 2px 7px lightgray;
+	background-color: #ffffff;
+    background-color: rgba(255,255,255,0.6);
+}
+/* login.mr 끝 */
+/* join.mr */
+
+div.joinWrap {
+	min-height: 100%;
+	padding-top: 11%;
+	margin-top: -7rem;
+	
+}
+
+div.joinLine{
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	border-radius: 0.5rem;
+	width: 40%;
+	margin:auto;
+	margin-bottom: 10px;
+	box-shadow: 1.5px 2px 7px lightgray;
+	background-color: #ffffff;
+    background-color: rgba(255,255,255,0.6);
+}
+/* join.mr 끝 */
+/* myInfo.mr */
+
+div.myInfoWrap {
+	min-height: 100%;
+	padding-top: 13%;
+	margin-top: -7rem;
+	box-shadow: 3px 5px 7px black;
+}
+div.myInfoLine{
+	position: relative;
+	background-color : #343a40;
+	border-radius: 0.5rem;
+	width: 40%;
+	margin:auto;
+	height: 420px;
+	margin-bottom: 10px;
+	box-shadow: 3px 5px 7px black;
+}
+div.inner {
+	position:relative;
+	width: 95%;
+	top: 22px;
+	left:17px;
+	background-color: white;
+}
+/* myInfo.mr 끝 */
+/* update.mr */
+div.updateWrap {
+	min-height: 100%;
+	padding-top: 15%;
+	margin-top: -7rem;
+}
+
+/* lectureReg.lr */
+
+div.lectureRegWrap {
+	min-height: 100%;
+	padding-top: 11%;
+	margin-top: -7rem;
+}
+
+div.lectureRegLine{
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	border-radius: 0.5rem;
+	width: 50%;
+	margin:auto;
+	margin-bottom: 10px;
+	box-shadow: 1.5px 2px 7px lightgray;
+}
+/* lectureReg.lr 끝 */
+
+/* lecture_index.jsp */
+
+div.lectureIndexWrap {
+	min-height: 100%;
+	padding-top: 11%;
+	margin-top: -7rem;
+	vertical-align: center;
+}
+
+div.lectureIndexLine {
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	border-radius: 0.5rem;
+	width: 50%;
+	margin:auto;
+	margin-bottom: 10px;
+	box-shadow: 1.5px 2px 7px lightgray;
+}
+/* lecture_index.jsp 끝 */
+/* lecture_profile  */
+
+div.lectureWrap {
+	min-height: 100%;
+	padding-top: 11%;
+	margin-top: -7rem;
+}
+div.lectureLine{
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	border-radius: 0.5rem;
+	width: 40%;
+	margin:auto;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+    background-color: rgba(255,255,255,0.6);
+	box-shadow: 1.5px 2px 7px lightgray;
+}
+/* lecture_profile 끝 */
+/* studyRoom.lv */
+
+div.studyRoomWrap {
+	min-height: 100%;
+	padding-top: 9%;
+	margin-top: -7rem;
+	vertical-align: center;
+	border-radius: 0.5rem;
+}
+div.studyRoomLine {
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	border-radius: 0.5rem;
+	background-color: #ffffff;
+    background-color: rgba(255,255,255,0.4);
+	width: 1620px;
+	margin:auto;
+	margin-bottom: 10px;
+	box-shadow: 1.5px 2px 7px lightgray;
+	
+}
+
+div.videoNoteWrap{
+	margin:5px;
+	width:1220px;
+	height:820px;
+	border-radius: 0.5rem;
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	box-shadow: 1.5px 2px 7px lightgray;
+	float:left;
+}
+
+div.videoBox {
+	margin : 5px; 
+	width:1200px;
+	height:720px;
+	background-color: #ffffff;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 0.5rem;
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	box-shadow: 1.5px 2px 7px lightgray;
+	
+}
+
+div.lectureNote{
+	margin:5px;
+	width:1200px;
+	height:80px;
+	background-color: #ffffff;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 0.5rem;
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	box-shadow: 1.5px 2px 7px lightgray;
+	
+}
+
+div.attachNote {
+	margin:10px 0 -10px 10px;
+	vertical-align:text-bottom;
+	font-size:20px;
+	font-weight: bold;
+}
+
+div.lectureNote hr {
+	border-radius: 0.5rem;
+	width:30%;
+}
+
+div.noteAtag{
+	margin:-10px 0 0px 0px;
+}
+
+div.indexList {
+	overflow-x:hidden;
+	margin: 5px;
+	width:350px;
+	height:820px;
+	float:right;
+	background-color: #ffffff;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 0.5rem;
+	border-style:none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #F3F3F3; 
+	box-shadow: 1.5px 2px 7px lightgray;
+}
+
+div.exit {
+	color:white;
+}
+/* studyRoom.lv 끝 */
+
+
+/* detail.jsp */
+div.detailPaging {
+	
+}
+
+div.pagination {
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #0056b3;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.page-link:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.pagination-lg .page-link {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.pagination-lg .page-item:first-child .page-link {
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.pagination-lg .page-item:last-child .page-link {
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.pagination-sm .page-link {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.pagination-sm .page-item:first-child .page-link {
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+
+.pagination-sm .page-item:last-child .page-link {
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}

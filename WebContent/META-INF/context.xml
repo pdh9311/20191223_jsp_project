@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource 
+		name="jdbc/MysqlDB" 
+		auth="container"
+		type="javax.sql.DataSource"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" 
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/jsp_project?useSSL=false"  
+		username="myjava"
+		password="12345"
+		maxActive="100"
+		maxIdle="10" />
+</Context>
+
+
+
+
+
